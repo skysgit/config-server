@@ -5,6 +5,8 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
+import com.cn.app.server.ConfigServerApp;
+
 /**
  * 这里没有使用SpringBootApplication或SpringCloudApplication注解，会报错
  * 原因也很简单，我们的java源码目录下没有目录，我们手动加一个也就正常了，
